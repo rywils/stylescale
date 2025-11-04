@@ -1,0 +1,71 @@
+{
+  "name": "stylescale",
+  "version": "1.0.0",
+  "description": "A simple design system for tailwind CSS that automatically styles React components based on a centralized theme configuration. Inspired by Nix's single-file config approach.",
+  "main": "index.js",
+  "bin": {
+    "auto-style-init": "./install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "babel-plugin",
+    "react",
+    "nextjs",
+    "tailwind",
+    "tailwindcss",
+    "styling",
+    "styles",
+    "nix",
+    "postcss",
+    "style",
+    "theme",
+    "css",
+    "auto-style",
+    "developer-experience",
+    "dx",
+    "build-time",
+    "transform",
+    "jsx",
+    "design-system",
+    "theming",
+    "themes",
+    "config-driven"
+  ],
+  "author": {
+    "name": "Ryan Wilson (regded)",
+    "email": "ryan@ryanwilson.io",
+    "url": "https://github.com/rywils"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rywils/stylescale",
+  "bugs": {
+    "url": "https://github.com/rywils/stylescale/issues"
+  },
+  "homepage": "https://github.com/rywils/stylescale#readme",
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.23.0",
+    "jest": "^29.7.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "install.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "types": "index.d.ts"
+}

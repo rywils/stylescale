@@ -1,0 +1,30 @@
+# Source control
+.git/
+.gitignore
+
+# Tests
+__tests__/
+coverage/
+*.test.js
+jest.config.js
+
+# Documentation sources
+docs/
+examples/
+
+# Development files
+.eslintrc.js
+.prettierrc
+.editorconfig
+
+# CI/CD
+.github/
+.travis.yml
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
