@@ -430,9 +430,9 @@ StyleScale applies intelligent defaults:
 
 ### Need help?
 
-- 📚 [Full Documentation](https://github.com/yourusername/stylescale)
-- 🐛 [Report Issues](https://github.com/yourusername/stylescale/issues)
-- 💬 [Discussions](https://github.com/yourusername/stylescale/discussions)
+- 📚 [Full Documentation](https://github.com/rywils/stylescale)
+- 🐛 [Report Issues](https://github.com/rywils/stylescale/issues)
+- 💬 [Discussions](https://github.com/rywils/stylescale/discussions)
 
 ## 🤝 Contributing
 
