@@ -440,7 +440,7 @@ Contributions welcome! Please open an issue or PR.
 
 ## 📄 License
 
-MIT © [Your Name]
+MIT © Ryan Wilson (regded)
 
 ## 🙏 Acknowledgments
 
