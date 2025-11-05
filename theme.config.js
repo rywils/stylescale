@@ -1,5 +1,4 @@
 // theme.config.js - Complete example with all features
-// **RENAME TO  theme.comnfig.js to use**
 
 module.exports = {
   // Define your color themes

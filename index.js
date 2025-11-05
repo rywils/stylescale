@@ -1,4 +1,4 @@
-// babel-plugin-react-auto-style/index.js
+// stylescale/index.js
 const path = require('path');
 const fs = require('fs');
 
@@ -18,7 +18,7 @@ module.exports = function ({ types: t }) {
       return config;
     }
     
-    console.warn(`[react-auto-style] Config file not found at ${fullPath}`);
+    console.warn(`[stylescale] Config file not found at ${fullPath}`);
     return null;
   }
 
@@ -318,7 +318,7 @@ module.exports = function ({ types: t }) {
   }
 
   return {
-    name: 'react-auto-style',
+    name: 'stylescale',
     visitor: {
       Program: {
         enter(programPath, state) {

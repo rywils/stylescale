@@ -1,6 +1,6 @@
-// index.d.ts - TypeScript definitions for babel-plugin-react-auto-style
+// index.d.ts - TypeScript definitions for stylescale
 
-declare module 'babel-plugin-react-auto-style' {
+declare module 'stylescale' {
   import { PluginObj } from '@babel/core';
 
   /**
@@ -101,7 +101,7 @@ declare module 'babel-plugin-react-auto-style' {
  * 
  * @example
  * // theme.config.js
- * /** @type {import('babel-plugin-react-auto-style').ThemeConfig} *\/
+ * /** @type {import('stylescale').ThemeConfig} *\/
  * module.exports = {
  *   colors: {
  *     primary: { main: '#3b82f6', light: '#60a5fa', dark: '#2563eb', text: '#ffffff' }
@@ -112,7 +112,7 @@ declare module 'babel-plugin-react-auto-style' {
  * };
  */
 declare module 'theme.config' {
-  import { ThemeConfig } from 'babel-plugin-react-auto-style';
+  import { ThemeConfig } from 'stylescale';
   const config: ThemeConfig;
   export default config;
 }
